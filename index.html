@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link bootstrap>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header class="cabecera">
+        <button class="cabecera__boton" onclick="mostrarMenuPagina()">Mostrar Menu</button>
+        <div class="cabecera__contenedorLista">
+            <ul class="cabecera__lista">
+                <li class="cabecera__lista__elemento">Página Principal |</li>
+                <li class="cabecera__lista__elemento">Preguntas Frecuentes |</li>
+                <li class="cabecera__lista__elemento">Manuales y Tutoriales |</li>
+                <li class="cabecera__lista__elemento">Noticias |</li>
+                <li class="cabecera__lista__elemento">Calendario |</li>
+                <li class="cabecera__lista__elemento">Administracion de perfil |</li>
+                <li class="cabecera__lista__elemento">Organigrama |</li>
+                <li class="cabecera__lista__elemento">Chat</li>
+            </ul>
+
+        </div>
+    </header>
+    <main class="principal">
+        <aside class="principal__izquierda">
+            <article class="principal__izquierda__buscador">
+                <form action="" method="">
+                    <input type="text" id="txtbusqueda" name="txtbusqueda" size="16"><input type="button" value="buscar">
+                </form>
+            </article>
+            <article class="principal__izquierda__mostrarChats">
+                <form action="" method="">
+                    <input class="principal__izquierda__mostrarChats__boton" type="button" value="mostrar chats" onclick="mostrarContenedoresChat()">
+                </form>
+            </article>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/hinata.jpg" al
+                    </figure>
+                </aside>
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <p>Hinata Hiuga<span class="principal__izquierda__fecha">Última conversación:09 May 2023</span></p>
+                </aside>
+            </article>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/madara.jpg" alt="hisoka">
+                    </figure>
+                </aside>
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <p>Madara Uchija<span class="principal__izquierda__fecha">Última conversación: 08 May 2023</span></p>
+                </aside>
+            </article>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/itachi.jpg" alt="hisoka">
+                    </figure>
+                </aside>
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <p>Itachi Uchija<span class="principal__izquierda__fecha">Última conversación: 07 May 2023</span></p>
+                </aside>
+            </article>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/kakachi.jpg" alt="hisoka">
+                    </figure>
+                </aside>
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <p>Hakate Kakachi<span class="principal__izquierda__fecha">Última conversación: 06 May 2023</span></p>
+                </aside>
+            </article>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/kabuto.jpg" alt="hisoka">
+                    </figure>
+                </aside>
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <p>Kabuto<span class="principal__izquierda__fecha">Última conversación: 05 May 2023</span></p>
+                </aside>
+            </article>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/naruto.jpg" alt="hisoka">
+                    </figure>
+                </aside>
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <p>Naruto Uzumaki <span class="principal__izquierda__fecha">Última conversación: 04 May 2023</span></p>
+                </aside>
+            </article>
+        </aside>
+        <section class="principal__derecha">
+            <p>Última conversación</p>
+            <p>Naruto: Hinata, ¿cómo te ha ido en tu trabajo de soporte técnico en la empresa?</p>
+            <p>Hinata: Ha sido un poco difícil al principio, pero he aprendido mucho sobre cómo ayudar a los clientes con sus problemas técnicos.</p>
+            <p>Naruto: ¡Genial! Yo también he estado ocupado con el soporte en mi trabajo en la aldea. Es muy gratificante poder ayudar a la gente a solucionar sus problemas.</p>
+            <p>Hinata: Sí, es muy gratificante poder resolver los problemas de los clientes y hacer que se sientan más cómodos con el uso de la tecnología.</p>
+            <p>Naruto: Totalmente de acuerdo. A veces puede ser estresante, pero siempre vale la pena cuando vemos a los clientes satisfechos con nuestro trabajo.</p>
+            <p>Hinata: Definitivamente. Y es bueno saber que estamos haciendo una diferencia en la vida de las personas.</p>
+            <button class="principal__derecha__boton" onclick="cambiarFuenteCursiva()">Cambiar la Fuente a Cursiva</button>
+            <button class="principal__derecha__boton" onclick="cambiarFuenteOrbitron()" disabled>Cambiar la Fuente a Orbitron</button>
+        </section>
+    </main>
+    <footer class="pie">
+        <p class="pie__parrafo">New Chat Narucho shipudent Work</p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
